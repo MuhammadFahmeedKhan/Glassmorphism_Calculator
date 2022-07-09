@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Calculator</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="circle"></div>
+
+    <div class="cal_body" data-tilt>
+        <div class="screen">
+            <input type="text" placeholder="0" id="screen">
+        </div>
+        <div class="buttons">
+            <button onclick="clr()"><i class="fa-solid fa-c"></i></button>
+            <button onclick="back()"><i class="fa-solid fa-delete-left"></i></button>
+
+            <button onclick="btn_text(1)"><i class="fa-solid fa-1"></i></button>
+            <button onclick="btn_text(2)"><i class="fa-solid fa-2"></i></button>
+            <button onclick="btn_text(3)"><i class="fa-solid fa-3"></i></button>
+            <button onclick="btn_text('+')"><i class="fa-solid fa-plus"></i></button>
+
+            <button onclick="btn_text(4)"><i class="fa-solid fa-4"></i></button>
+            <button onclick="btn_text(5)"><i class="fa-solid fa-5"></i></button>
+            <button onclick="btn_text(6)"><i class="fa-solid fa-6"></i></button>
+            <button onclick="btn_text('-')"><i class="fa-solid fa-minus"></i></button>
+
+            <button onclick="btn_text(7)"><i class="fa-solid fa-7"></i></button>
+            <button onclick="btn_text(8)"><i class="fa-solid fa-8"></i></button>
+            <button onclick="btn_text(9)"><i class="fa-solid fa-9"></i></button>
+            <button onclick="btn_text('*')"><i class="fa-solid fa-xmark"></i></button>
+
+            <button onclick="btn_text(0)"><i class="fa-solid fa-0"></i></button>
+            <button onclick="btn_text('00')"><i class="fa-solid fa-0"></i><i class="fa-solid fa-0"></i></button>
+            <button onclick="btn_text('.')"><i class="fa-solid fa-circle"></i></button>
+            <button onclick="btn_text('/')"><i class="fa-solid fa-divide"></i></button>
+
+            <button onclick="equal()"><i class="fa-solid fa-equals"></i></button>
+            
+
+        </div>
+    </div>
+
+
+
+
+    <script src="javascript/script.js"></script>
+    <script src="javascript/vanilla-tilt.js"></script>
+</body>
+</html>
